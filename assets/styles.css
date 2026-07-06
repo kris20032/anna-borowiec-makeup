@@ -601,3 +601,8 @@ img[src$="/g13.jpg"]{object-position:38% 50%}
 [style*="g13.jpg"]{background-position:38% 50%}
 img[src$="/g14.jpg"]{object-position:35% 52%}
 [style*="g14.jpg"]{background-position:35% 52%}
+
+/* === Logo AB (Booksy) w nav + hero ze zdjęciem właścicielki === */
+.brand-logo{border-radius:50%}                     /* logo kwadratowe z beżowym tłem -> okrągły monogram */
+.nav .brand{align-items:center}                    /* wyśrodkuj logo względem tekstu (nadpisuje baseline) */
+.hs-fig img{object-position:50% 12%}               /* mobile (kadr 5/4): trzymaj twarz w kadrze, tnij dół */
